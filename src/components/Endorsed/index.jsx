@@ -1,6 +1,6 @@
-import mbtoken from "../../assets/mbtoken.svg";
-import metamask from "../../assets/metamask.svg";
-import opensea from "../../assets/opensea.svg";
+import mbtoken from "../../assets/images/mbtoken.svg";
+import metamask from "../../assets/images/metamask.svg";
+import opensea from "../../assets/images/opensea.svg";
 
 const Endorsed = () => {
   return (

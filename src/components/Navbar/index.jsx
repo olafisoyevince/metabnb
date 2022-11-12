@@ -1,4 +1,4 @@
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/images/Logo.png";
 import { HiBars3BottomRight, HiOutlineXMark } from "react-icons/hi2";
 import { useState } from "react";
 import Layout from "../Layout";

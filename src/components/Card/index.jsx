@@ -1,14 +1,33 @@
-const Card = () => {
+import star from "../../assets/images/star.png";
+
+const Card = ({ image }) => {
   return (
     <div>
-      <div>
-        <div className="relative">
-          <img src="" alt="" />
-          <img className="absolute" src="" alt="" />
+      <div className=" p-4 border-solid border-2 border-lightGray w-72 rounded-3xl ">
+        <div className="">
+          <img
+            className="  border-solid border-1 border-lightGray  "
+            src={image}
+            alt=""
+          />
         </div>
-        <div>
+
+        <div className="flex justify-between pt-4 pb-3">
           <p>Desert king</p>
-          <p>1MBT per night</p>
+          <p className=" font-semibold">1MBT per night</p>
+        </div>
+
+        <div className="flex justify-between text-xs pb-3">
+          <p>2345km away</p>
+          <p>available for 2weeks stay</p>
+        </div>
+
+        <div className=" w-12 flex gap-1 ">
+          <img className="" src={star} alt="" />
+          <img className="" src={star} alt="" />
+          <img className="" src={star} alt="" />
+          <img className="" src={star} alt="" />
+          <img className="" src={star} alt="" />
         </div>
       </div>
     </div>

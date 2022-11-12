@@ -4,6 +4,27 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @font-face {
+  font-family: RedRose Light;
+  src: url("../src/assets/fonts/RedRose-Light.ttf");
+}
+@font-face {
+  font-family: RedRose Regular;
+  src: url("../src/assets/fonts/RedRose-Regular.ttf");
+}
+@font-face {
+  font-family: RedRose Medium;
+  src: url("../src/assets/fonts/RedRose-Medium.ttf");
+}
+@font-face {
+  font-family: RedRose SemiBold;
+  src: url("../src/assets/fonts/RedRose-SemiBold.ttf");
+}
+@font-face {
+  font-family: RedRose Bold;
+  src: url("../src/assets/fonts/RedRose-Bold.ttf");
+} */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,5 +32,6 @@
 }
 
 body {
+  /* font-family: RedRose Regular, serif; */
   font-family: "Red Rose", cursive;
 }

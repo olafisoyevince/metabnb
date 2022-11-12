@@ -1,5 +1,5 @@
 import Layout from "../Layout";
-import headerImage from "../../assets/header-image.png";
+import headerImage from "../../assets/images/header-image.png";
 
 const Header = () => {
   return (
