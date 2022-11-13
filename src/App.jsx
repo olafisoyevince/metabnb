@@ -1,4 +1,5 @@
 import Endorsed from "./components/Endorsed";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Inspiration from "./components/Inspiration";
 import MetaBnbNFTs from "./components/MetaBnbNTFs";
@@ -12,6 +13,7 @@ function App() {
       <Endorsed />
       <Inspiration />
       <MetaBnbNFTs />
+      <Footer />
     </div>
   );
 }
