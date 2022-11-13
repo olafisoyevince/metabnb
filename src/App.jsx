@@ -1,6 +1,7 @@
 import Endorsed from "./components/Endorsed";
 import Header from "./components/Header";
 import Inspiration from "./components/Inspiration";
+import MetaBnbNFTs from "./components/MetaBnbNTFs";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Endorsed />
       <Inspiration />
+      <MetaBnbNFTs />
     </div>
   );
 }
