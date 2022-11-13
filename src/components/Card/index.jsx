@@ -3,10 +3,10 @@ import star from "../../assets/images/star.png";
 const Card = ({ image }) => {
   return (
     <div>
-      <div className=" p-4 border-solid border-2 border-lightGray w-72 rounded-3xl ">
+      <div className=" p-4 border-solid border border-lightGray w-72 rounded-3xl ">
         <div className="">
           <img
-            className="  border-solid border-1 border-lightGray  "
+            className=" w-full  border-solid border-1 border-lightGray  "
             src={image}
             alt=""
           />

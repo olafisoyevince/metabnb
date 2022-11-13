@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className=" pt-9 text-center md:text-left md:pt-0">
+          <div className=" pt-9 text-center md:text-left md:pt-0 xl:w-52">
             <h1 className=" font-bold">Community</h1>
             <div className=" text-sm ">
               <p className=" pt-6">NFTs</p>
@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className=" pt-9 text-center md:text-left md:pt-0">
+          <div className=" pt-9 text-center md:text-left md:pt-0 xl:w-52">
             <h1 className=" font-bold">Places</h1>
             <div className=" text-sm ">
               <p className=" pt-6">Castle</p>
@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className=" pt-9 text-center md:text-left md:pt-0">
+          <div className=" pt-9 text-center md:text-left md:pt-0 xl:w-52">
             <h1 className=" font-bold">About us</h1>
             <div className=" text-sm ">
               <p className=" pt-6">Road map</p>

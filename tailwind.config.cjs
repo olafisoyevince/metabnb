@@ -9,6 +9,7 @@ module.exports = {
       faintGray: "rgba(67, 67, 67, 1)",
       lightGray: "rgba(163, 163, 163, 1)",
       black: "#000000",
+      mildGray: "rgba(207, 216, 220, 1)",
     },
   },
   plugins: [],
