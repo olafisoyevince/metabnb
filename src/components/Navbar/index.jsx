@@ -63,7 +63,7 @@ const Navbar = () => {
             className="md:hidden text-3xl"
           />
 
-          <div className="hidden md:flex md:gap-7 text-faintGray lg:gap-12 ">
+          <div className="hidden md:flex md:gap-7 text-faintGray lg:gap-12 lg:text-lg ">
             <Link to="/">Home</Link>
             <Link to="/placetostay">Place to stay</Link>
             <a href="">NFTs</a>
