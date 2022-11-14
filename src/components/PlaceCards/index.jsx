@@ -76,7 +76,7 @@ const PlaceCards = () => {
         <p>Off-grid</p>
         <p>Farm</p>
 
-        <button className=" flex gap-3 border-2 border-lightGray px-2 py-2 rounded-lg">
+        <button className=" flex gap-3 border border-lightGray px-2 py-2 rounded-lg">
           <span>Location</span>
           <img src={settings} alt="" />
         </button>

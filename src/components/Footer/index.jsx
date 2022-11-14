@@ -6,6 +6,7 @@ import {
   FaTwitter,
   FaRegCopyright,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -13,7 +14,9 @@ const Footer = () => {
       <Layout>
         <div className="md:flex md:justify-between">
           <div>
-            <img className="mx-auto md:mx-0" src={whiteLogo} alt="" />
+            <Link to="/">
+              <img className="mx-auto md:mx-0" src={whiteLogo} alt="" />
+            </Link>
 
             <div className=" flex justify-center md:justify-start gap-6 pt-24">
               <FaFacebookF />

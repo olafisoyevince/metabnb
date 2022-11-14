@@ -3,6 +3,7 @@ import { HiBars3BottomRight, HiOutlineXMark } from "react-icons/hi2";
 import { useState } from "react";
 import Layout from "../Layout";
 import Modal from "../Modal";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -28,10 +29,10 @@ const Navbar = () => {
 
           <div className="text-center" onClick={() => setOpen(!open)}>
             <div className=" cursor-pointer my-6">
-              <a>Home</a>
+              <Link to="/">Home</Link>
             </div>
             <div className=" cursor-pointer my-6">
-              <a>Place to stay</a>
+              <Link to="/placetostay">Place to stay</Link>
             </div>
             <div className=" cursor-pointer my-6">
               <a>NFTs</a>
@@ -53,7 +54,9 @@ const Navbar = () => {
         {/* Nav for other screens */}
 
         <div className="py-10 flex md:text-sm justify-between items-center">
-          <img className=" w-28 md:w-36 lg:w-52 " src={Logo} />
+          <Link to="/">
+            <img className=" w-28 md:w-36 lg:w-52 " src={Logo} />
+          </Link>
 
           <HiBars3BottomRight
             onClick={() => setOpen(!open)}
@@ -61,8 +64,8 @@ const Navbar = () => {
           />
 
           <div className="hidden md:flex md:gap-7 text-faintGray lg:gap-12 ">
-            <a href="">Home</a>
-            <a href="">Place to stay</a>
+            <Link to="/">Home</Link>
+            <Link to="/placetostay">Place to stay</Link>
             <a href="">NFTs</a>
             <a href="">Community</a>
           </div>
