@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <Layout>
       <div className="md:flex md:gap-14 xl:justify-between">
-        <div className=" md:w-1/2 lg:mt-24 lg:w-3/5 xl:w-3/5 xl:max-w-[646px] xl:mt-28 2xl:w-1/2">
+        <div className=" md:w-1/2 md:mt-20 lg:mt-24 lg:w-3/5 xl:w-3/5 xl:max-w-[646px] xl:mt-28 2xl:w-1/2">
           <h1 className=" md:text-3xl text-4xl lg:text-4xl xl:text-5xl xl:leading-normal text-faintGray leading-snug">
             Rent a <span className="font-semibold text-primary">Place</span>{" "}
             away from <span className="font-semibold text-primary">Home</span>{" "}
