@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white pt-16 pb-16 ">
+    <div className="bg-black text-white pt-16 pb-16 lg:px-9 xl:px-0 ">
       <Layout>
         <div className="md:flex md:justify-between">
           <div>
@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className=" pt-9 text-center md:text-left md:pt-0 xl:w-52">
+          <div className=" pt-9 text-center md:text-left md:pt-0 xl:w-52 lg:w-44">
             <h1 className=" font-bold">Community</h1>
             <div className=" text-sm ">
               <p className=" pt-6">NFTs</p>
@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className=" pt-9 text-center md:text-left md:pt-0 xl:w-52">
+          <div className=" pt-9 text-center md:text-left md:pt-0 xl:w-52 lg:w-44">
             <h1 className=" font-bold">Places</h1>
             <div className=" text-sm ">
               <p className=" pt-6">Castle</p>
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className=" pt-9 text-center md:text-left md:pt-0 xl:w-52">
+          <div className=" pt-9 text-center md:text-left md:pt-0 xl:w-52 lg:w-44">
             <h1 className=" font-bold">About us</h1>
             <div className=" text-sm ">
               <p className=" pt-6">Road map</p>

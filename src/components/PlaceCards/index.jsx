@@ -66,7 +66,7 @@ const data = [
 const PlaceCards = () => {
   return (
     <Layout>
-      <div className="flex justify-between flex-wrap items-center pt-7 pb-12">
+      <div className="flex justify-between flex-wrap items-center pt-7 pb-12 gap-6 lg:px-9 xl:px-0">
         <p>Resturant</p>
         <p>Cottage</p>
         <p>Castle</p>

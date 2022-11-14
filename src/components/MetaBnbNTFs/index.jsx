@@ -3,7 +3,7 @@ import Layout from "../Layout";
 
 const MetaBnbNFTs = () => {
   return (
-    <div className="bg-primary py-24">
+    <div className="bg-primary py-24 lg:px-9 xl:px-0">
       <Layout>
         <div className="md:flex md:gap-11 ">
           <div className=" md:w-1/2 lg:w-3/5 lg:mt-16 xl:mt-24">

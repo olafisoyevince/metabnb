@@ -53,7 +53,7 @@ const Navbar = () => {
 
         {/* Nav for other screens */}
 
-        <div className="py-10 flex md:text-sm justify-between items-center">
+        <div className="py-10 flex md:text-sm justify-between lg:px-9 xl:px-0 items-center">
           <Link to="/">
             <img className=" w-28 md:w-36 lg:w-52 " src={Logo} />
           </Link>
